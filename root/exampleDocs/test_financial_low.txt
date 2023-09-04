@@ -1,0 +1,64 @@
+1. Income Statement
+
+Revenue:
+
+    Product Sales: $15,000
+    Service Revenue: $5,000
+        Total Revenue: $20,000
+
+Expenses:
+
+    Cost of Goods Sold (COGS): $6,000
+    Research & Development (R&D): $2,000
+    Sales & Marketing: $1,000
+    General & Administrative (G&A): $1,000
+        Total Expenses: $10,000
+
+Net Income: $10,000 (Total Revenue - Total Expenses)
+
+2. Balance Sheet
+
+Assets:
+
+    Cash: $2,500
+    Accounts Receivable: $1,500
+    Inventory: $2,000
+    Property, Plant & Equipment (PPE): $4,000
+        Total Assets: $10,000
+
+Liabilities:
+
+    Accounts Payable: $1,500
+    Accrued Expenses: $500
+    Long-Term Debt: $3,000
+        Total Liabilities: $5,000
+
+Equity:
+
+    Common Stock: $2,000
+    Retained Earnings: $3,000
+        Total Equity: $5,000
+
+Total Liabilities + Equity: $10,000
+
+3. Cash Flow Statement
+
+Cash Flows from Operating Activities:
+
+    Net Income: $10,000
+    Changes in Working Capital: $500
+    Depreciation & Amortization: $500
+        Net Cash from Operations: $11,000
+
+Cash Flows from Investing Activities:
+
+    Purchases of PPE: -$2,000
+        Net Cash from Investing: -$2,000
+
+Cash Flows from Financing Activities:
+
+    Proceeds from Issue of Stock: $2,000
+    Repayment of Long-Term Debt: -$1,000
+        Net Cash from Financing: $1,000
+
+Net Increase in Cash: $10,000 (Net Cash from Operations + Net Cash from Investing + Net Cash from Financing)

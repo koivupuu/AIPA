@@ -1,0 +1,56 @@
+# Past Works Document
+
+## Bittium Corporation
+
+### About
+
+Bittium is a trusted provider of reliable and secure solutions for connectivity, tactical communications, and biosignal measuring and monitoring. The company's sustainability program is based on its strategy, values, stakeholders' expectations, and the megatrends in the operating environment.
+
+### Jobs
+
+Bittium values the competence and dreams of its employees, forming the core of its business.
+
+### Investors
+
+The Annual General Meeting of Bittium Corporation was held on April 12, 2023.
+
+### Products and Services
+
+#### Medical Technologies
+
+Bittium offers biosignal monitoring for cardiology and neurophysiology. One of its notable products, Bittium Respiro™, an advanced Home Sleep Apnea Test and Analysis Solution, has received CE approval for the European market.
+
+#### R&D Services
+
+Bittium provides product development services in the areas of wireless communications, medical technologies, and manufacturing. One of its key solutions is the Bittium Cellular IoT Solution that enables direct connection to the cloud with global coverage using LTE-M1 and NB-IoT standards.
+
+#### Secure Communications and Connectivity
+
+Bittium provides highly secure communications and connectivity solutions for public safety & security, defense, healthcare, and utility markets. The company has also published a blog post titled "A Secure Smartphone in Uncertain Times" discussing the importance of secure smartphones in the current era.
+
+#### Tactical Communications
+
+Bittium offers advanced products and services for wireless and wireline Tactical Communications. The company has also published an article titled "The Future Tactical Communication Network" discussing the need for a new deployable communications system for the Austrian Armed Forces.
+
+### Products
+
+Bittium's product line includes:
+
+- Bittium Tactical Wireless IP Network
+- Bittium Tough SDR Handheld
+- Bittium Tough SDR Vehicular
+- Bittium Tough Comnode
+- Bittium Tough VoIP Service
+- Bittium Tough VoIP Softphone
+- Bittium Tough VoIP Field Phone 2
+- Bittium Tough Mobile 2 Tactical
+- Bittium Tactical Power Pack
+- Bittium Tactical LTE Access Point
+- Bittium Tactical Device Management
+- Bittium Tactical Network Management
+
+### Contact Information
+
+Bittium Corporation
+Ritaharjuntie 1
+FI-90590 Oulu, Finland

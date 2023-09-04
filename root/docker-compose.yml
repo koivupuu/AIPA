@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  client:
+    container_name: react_client
+    image: syntaxsamurai/cccdocker:frontend-aipa
+    ports:
+      - "3000:3000"
+
+  server:
+    container_name: express_server
+    image: syntaxsamurai/cccdocker:backend-aipa
+    ports:
+      - "5000:5000"
+    env_file:
+      - /etc/aipa/server/.env

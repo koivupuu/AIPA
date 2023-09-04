@@ -1,0 +1,39 @@
+# Solita Past Works Document
+
+## Introduction
+
+Solita has a rich history of partnering with various organizations across industries to help them leverage data, analytics, and digital solutions to transform their businesses. This document provides an overview of some of our select client projects.
+
+## Client Projects
+
+### Solita x Ponsse
+
+For years, we have been working with Ponsse, a leading manufacturer of customized cut-to-length forest machines. Our collaboration has focused on overhauling Ponsse's digital infrastructure and accelerating its transformation into a data-driven business.
+
+### Solita x Helsinki Public Transport (HSL)
+
+Our journey with Helsinki’s public transport operator HSL started over 10 years ago. We have been instrumental in shaping their digital customer experience, bringing it to the next level.
+
+### Duodecim
+
+Duodecim was among the first in the Nordic countries to implement Google's new Assured Workloads and Assured Support services. In cooperation with Solita, Duodecim has developed control of its Google cloud environment at the forefront, setting a new standard for the Nordic model.
+
+### KONE
+
+KONE moves more than a billion people every day. In partnership with Solita, KONE is enhancing the predictive maintenance capabilities for more than 150,000 elevators with sensor data, machine learning, and analytics.
+
+### Fintraffic Rail
+
+Solita and Fintraffic Railway are using data and analytics to develop world-class rail traffic. Our joint efforts are aimed at making Fintraffic Railway one of the most advanced rail traffic systems in the world.
+
+### Posti
+
+We have helped Posti, the Finnish postal service, step up its data capability. This has resulted in a radical improvement in the speed of creating new corporate customers.
+
+### Readly
+
+Together with Solita, Readly developed a new way to optimize its marketing budget and allocate the money to where it leads to the most efficient subscriber growth. This shift from aggressive growth to increased profitability was achieved with predictive Lifetime Value (LTV).
+
+## Conclusion
+
+At Solita, we are proud of the work we have done with our clients. Our partnerships have resulted in significant digital transformations, improved customer experiences, and data-driven business models. We look forward to continuing to help organizations leverage data, analytics, and digital solutions to achieve their business goals.

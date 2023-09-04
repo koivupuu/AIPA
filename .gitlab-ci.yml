@@ -1,0 +1,51 @@
+variables:
+    GIT_CLONE_URL: "https://cicd:16Kdyn_kLEQXF1ynYzau@gitlab.jyu.fi/koivismj/tender-assistant.git"
+    IMAGE_TAG: aipa
+
+stages:
+  - build
+  - deploy
+
+build images:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  variables:
+    DOCKER_HOST: tcp://docker:2375
+    DOCKER_TLS_CERTDIR: ""
+    DOCKER_DRIVER: overlay2
+  before_script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD"
+    - apk add --no-cache git
+    - git clone $GIT_CLONE_URL
+    - chmod 400 $SSH_KEY
+     # Copy the .env file from the server to the CI/CD runner environment after cloning the repo
+    - scp -o StrictHostKeyChecking=no -i $SSH_KEY root@appaipa.eu:/etc/aipa/client/.env tender-assistant/root/client/.env
+  script:
+    - cd tender-assistant/root
+    # Direct Docker build commands
+    - docker build -f ./client/Dockerfile.client -t syntaxsamurai/cccdocker:frontend-$IMAGE_TAG . --no-cache
+    - docker build -f ./server/Dockerfile.server -t syntaxsamurai/cccdocker:backend-$IMAGE_TAG . --no-cache
+    # Push backend and frontend images
+    - docker push syntaxsamurai/cccdocker:backend-$IMAGE_TAG
+    - docker push syntaxsamurai/cccdocker:frontend-$IMAGE_TAG
+  only:
+    - main
+
+
+deploy to server:
+  stage: deploy
+  image: node:latest
+  before_script:
+    - chmod 400 $SSH_KEY
+  script:
+  - scp -o StrictHostKeyChecking=no -i $SSH_KEY ./root/docker-compose.yml root@appaipa.eu:/etc/aipa/
+  - ssh -o StrictHostKeyChecking=no -i $SSH_KEY root@appaipa.eu "
+    docker login -u \"$CI_REGISTRY_USER\" -p \"$CI_REGISTRY_PASSWORD\" &&
+    cd /etc/aipa &&
+    docker-compose pull &&
+    docker-compose down &&
+    docker-compose up -d"
+  only:
+    - main
